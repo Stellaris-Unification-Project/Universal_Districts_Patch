@@ -125,10 +125,8 @@ district_city = {
 		}
 	}
 	allow = {
-		NOT = {
+		NOR = {
 			has_modifier = resort_colony
-		}
-		NOT = {
 			has_modifier = slave_colony
 		}
 	}
@@ -159,7 +157,7 @@ district_city = {
 		upkeep = {
 			trigger = {
 				owner = {
-					has_non_swapped_tradition = tr_commonwealth_social
+					has_active_tradition = tr_commonwealth_social
 				}
 			}
 			energy = 0.5
@@ -195,7 +193,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_prosperity_public_works
+				has_active_tradition = tr_prosperity_public_works
 			}
 			NOR = {
 				has_global_flag = cultural_overhaul_traditions_active
@@ -234,7 +232,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_prosperity_interstellar_franchising
+				has_active_tradition = tr_prosperity_interstellar_franchising
 			}
 			NOR = {
 				has_global_flag = cultural_overhaul_traditions_active
@@ -292,7 +290,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_commonwealth_social
+				has_active_tradition = tr_commonwealth_social
 			}
 		}
 		modifier = {
@@ -303,7 +301,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_harmony_bulwark_of_harmony
+				has_active_tradition = tr_harmony_bulwark_of_harmony
 			}
 		}
 		modifier = {
@@ -314,7 +312,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_commonwealth_industrial
+				has_active_tradition = tr_commonwealth_industrial
 			}
 		}
 		modifier = {
@@ -325,7 +323,7 @@ district_city = {
 		potential = {
 			exists = owner
 			owner = {
-				has_non_swapped_tradition = tr_commerce_outsourcing
+				has_active_tradition = tr_commerce_outsourcing
 			}
 		}
 		modifier = {
@@ -352,7 +350,7 @@ district_city = {
 			planet = {
 				planet_devastation < 1
 				years_passed > 10
-				count_pops > 11
+				count_owned_pop > 11
 				free_housing < 4
 			}
 			NOT = {
@@ -419,7 +417,7 @@ district_city = {
 					value > 0
 				}
 			}
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_unemployed = yes
 					NOR = {
@@ -720,7 +718,7 @@ district_hive = {
 		potential = {
 			exists = owner
 			owner = {
-				has_swapped_tradition = tr_prosperity_extended_hives
+				has_active_tradition = tr_prosperity_extended_hives
 			}
 		}
 		modifier = {
@@ -738,7 +736,7 @@ district_hive = {
 			planet = {
 				planet_devastation < 1
 				years_passed > 10
-				count_pops > 11
+				count_owned_pop > 11
 				free_housing < 4
 			}
 			NOT = {
@@ -805,7 +803,7 @@ district_hive = {
 					value > 0
 				}
 			}
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_unemployed = yes
 					NOR = {
@@ -1064,7 +1062,7 @@ district_nexus = {
 		potential = {
 			exists = owner
 			owner = {
-				has_swapped_tradition = tr_prosperity_optimized_nexus
+				has_active_tradition = tr_prosperity_optimized_nexus
 			}
 		}
 		modifier = {
@@ -1082,7 +1080,7 @@ district_nexus = {
 			planet = {
 				planet_devastation < 1
 				years_passed > 10
-				count_pops > 11
+				count_owned_pop > 11
 				free_housing < 4
 			}
 			NOT = {
@@ -1149,7 +1147,7 @@ district_nexus = {
 					value > 0
 				}
 			}
-			count_pops = {
+			count_owned_pop = {
 				limit = {
 					is_unemployed = yes
 					NOR = {

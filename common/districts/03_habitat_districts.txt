@@ -3,10 +3,8 @@ district_hab_housing = {
 	is_capped_by_modifier = no
 	show_on_uncolonized = {
 		is_planet_class = pc_habitat
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		NOT = {
@@ -15,10 +13,8 @@ district_hab_housing = {
 	}
 	potential = {
 		is_planet_class = pc_habitat
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		NOT = {
@@ -356,10 +352,8 @@ district_hab_science = {
 	show_on_uncolonized = {
 		is_planet_class = pc_habitat
 		has_planet_flag = research_habitat
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		NOT = {
@@ -369,10 +363,8 @@ district_hab_science = {
 	potential = {
 		is_planet_class = pc_habitat
 		has_planet_flag = research_habitat
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		NOT = {
@@ -597,10 +589,8 @@ district_hab_mining = {
 	show_on_uncolonized = {
 		is_planet_class = pc_habitat
 		has_planet_flag = mining_habitat
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		NOT = {
@@ -610,10 +600,8 @@ district_hab_mining = {
 	potential = {
 		is_planet_class = pc_habitat
 		has_planet_flag = mining_habitat
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		NOT = {

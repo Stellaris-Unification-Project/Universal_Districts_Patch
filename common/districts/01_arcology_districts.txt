@@ -2,10 +2,8 @@ district_arcology_housing = {
 	base_buildtime = 600
 	is_capped_by_modifier = no
 	show_on_uncolonized = {
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		OR = {
@@ -14,10 +12,8 @@ district_arcology_housing = {
 		}
 	}
 	potential = {
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 		OR = {
@@ -110,19 +106,15 @@ district_arcology_arms_industry = {
 	is_capped_by_modifier = no
 	show_on_uncolonized = {
 		is_planet_class = pc_city
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 	}
 	potential = {
 		is_planet_class = pc_city
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 	}
@@ -251,10 +243,8 @@ district_arcology_civilian_industry = {
 	is_capped_by_modifier = no
 	show_on_uncolonized = {
 		is_planet_class = pc_city
-		NOT = {
+		NOR = {
 			is_planet_class = pc_dyson_swarm
-		}
-		NOT = {
 			has_planet_flag = xvcv_machinedlcmod_planet
 		}
 	}
