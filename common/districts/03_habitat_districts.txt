@@ -6,8 +6,6 @@ district_hab_housing = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_archive
 		}
 	}
@@ -16,8 +14,6 @@ district_hab_housing = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_archive
 		}
 	}
@@ -355,8 +351,6 @@ district_hab_science = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_archive
 		}
 	}
@@ -366,8 +360,6 @@ district_hab_science = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_archive
 		}
 	}
@@ -592,8 +584,6 @@ district_hab_mining = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_archive
 		}
 	}
@@ -603,8 +593,6 @@ district_hab_mining = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_archive
 		}
 	}

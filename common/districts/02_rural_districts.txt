@@ -7,48 +7,26 @@ district_generator = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
-		}
-		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_planet_flag = asteroid_habitat
 			has_planet_flag = moon_habitat
-		}
-		NOR = {
 			is_planet_class = pc_ecocity
 			is_planet_class = pc_archive
-		}
-		NOR = {
 			is_planet_class = pc_machine_factory
 			is_planet_class = pc_bioforge
-		}
-		NOR = {
 			is_planet_class = pc_habitable_asteroid
 			is_planet_class = pc_luna
-		}
-		NOR = {
 			is_planet_class = pc_barren_cold_habitable
 			is_planet_class = pc_barren_habitable
-		}
-		NOR = {
 			is_planet_class = pc_frozen_habitable
 			is_planet_class = pc_molten_habitable
-		}
-		NOR = {
 			is_planet_class = pc_shrouded_pg
 			is_planet_class = pc_outpost
-		}
-		NOR = {
 			is_planet_class = pc_matryoshka
 			is_planet_class = pc_hollow
-		}
-		NOT = {
 			is_planet_class = pc_bioform
 		}
 	}
@@ -57,48 +35,26 @@ district_generator = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
-		}
-		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_planet_flag = asteroid_habitat
 			has_planet_flag = moon_habitat
-		}
-		NOR = {
 			is_planet_class = pc_ecocity
 			is_planet_class = pc_archive
-		}
-		NOR = {
 			is_planet_class = pc_machine_factory
 			is_planet_class = pc_bioforge
-		}
-		NOR = {
 			is_planet_class = pc_habitable_asteroid
 			is_planet_class = pc_luna
-		}
-		NOR = {
 			is_planet_class = pc_barren_cold_habitable
 			is_planet_class = pc_barren_habitable
-		}
-		NOR = {
 			is_planet_class = pc_frozen_habitable
 			is_planet_class = pc_molten_habitable
-		}
-		NOR = {
 			has_modifier = pm_Utopian_Paradise
 			is_planet_class = pc_shrouded_pg
-		}
-		NOR = {
 			is_planet_class = pc_outpost
 			is_planet_class = pc_matryoshka
-		}
-		NOR = {
 			is_planet_class = pc_hollow
 			is_planet_class = pc_bioform
 		}
@@ -1125,48 +1081,26 @@ district_mining = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
-		}
-		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_planet_flag = asteroid_habitat
 			has_planet_flag = moon_habitat
-		}
-		NOR = {
 			is_planet_class = pc_ecocity
 			is_planet_class = pc_archive
-		}
-		NOR = {
 			is_planet_class = pc_machine_factory
 			is_planet_class = pc_bioforge
-		}
-		NOR = {
 			is_planet_class = pc_habitable_asteroid
 			is_planet_class = pc_luna
-		}
-		NOR = {
 			is_planet_class = pc_barren_cold_habitable
 			is_planet_class = pc_barren_habitable
-		}
-		NOR = {
 			is_planet_class = pc_frozen_habitable
 			is_planet_class = pc_molten_habitable
-		}
-		NOR = {
 			is_planet_class = pc_shrouded_pg
 			is_planet_class = pc_outpost
-		}
-		NOR = {
 			is_planet_class = pc_matryoshka
 			is_planet_class = pc_hollow
-		}
-		NOT = {
 			is_planet_class = pc_bioform
 		}
 	}
@@ -1175,48 +1109,26 @@ district_mining = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
-		}
-		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_planet_flag = asteroid_habitat
 			has_planet_flag = moon_habitat
-		}
-		NOR = {
 			is_planet_class = pc_ecocity
 			is_planet_class = pc_archive
-		}
-		NOR = {
 			is_planet_class = pc_machine_factory
 			is_planet_class = pc_bioforge
-		}
-		NOR = {
 			is_planet_class = pc_habitable_asteroid
 			is_planet_class = pc_luna
-		}
-		NOR = {
 			is_planet_class = pc_barren_cold_habitable
 			is_planet_class = pc_barren_habitable
-		}
-		NOR = {
 			is_planet_class = pc_frozen_habitable
 			is_planet_class = pc_molten_habitable
-		}
-		NOR = {
 			has_modifier = pm_Utopian_Paradise
 			is_planet_class = pc_shrouded_pg
-		}
-		NOR = {
 			is_planet_class = pc_outpost
 			is_planet_class = pc_matryoshka
-		}
-		NOR = {
 			is_planet_class = pc_hollow
 			is_planet_class = pc_bioform
 		}
@@ -2323,48 +2235,26 @@ district_farming = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
-		}
-		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_planet_flag = asteroid_habitat
 			has_planet_flag = moon_habitat
-		}
-		NOR = {
 			is_planet_class = pc_ecocity
 			is_planet_class = pc_archive
-		}
-		NOR = {
 			is_planet_class = pc_machine_factory
 			is_planet_class = pc_bioforge
-		}
-		NOR = {
 			is_planet_class = pc_habitable_asteroid
 			is_planet_class = pc_luna
-		}
-		NOR = {
 			is_planet_class = pc_barren_cold_habitable
 			is_planet_class = pc_barren_habitable
-		}
-		NOR = {
 			is_planet_class = pc_frozen_habitable
 			is_planet_class = pc_molten_habitable
-		}
-		NOR = {
 			is_planet_class = pc_shrouded_pg
 			is_planet_class = pc_outpost
-		}
-		NOR = {
 			is_planet_class = pc_matryoshka
 			is_planet_class = pc_hollow
-		}
-		NOT = {
 			is_planet_class = pc_bioform
 		}
 	}
@@ -2373,48 +2263,26 @@ district_farming = {
 		NOR = {
 			is_planet_class = pc_machine
 			is_planet_class = pc_hive
-		}
-		NOR = {
 			is_planet_class = pc_city
 			is_planet_class = pc_ringworld_habitable
-		}
-		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_planet_flag = asteroid_habitat
 			has_planet_flag = moon_habitat
-		}
-		NOR = {
 			is_planet_class = pc_ecocity
 			is_planet_class = pc_archive
-		}
-		NOR = {
 			is_planet_class = pc_machine_factory
 			is_planet_class = pc_bioforge
-		}
-		NOR = {
 			is_planet_class = pc_habitable_asteroid
 			is_planet_class = pc_luna
-		}
-		NOR = {
 			is_planet_class = pc_barren_cold_habitable
 			is_planet_class = pc_barren_habitable
-		}
-		NOR = {
 			is_planet_class = pc_frozen_habitable
 			is_planet_class = pc_molten_habitable
-		}
-		NOR = {
 			has_modifier = pm_Utopian_Paradise
 			is_planet_class = pc_shrouded_pg
-		}
-		NOR = {
 			is_planet_class = pc_outpost
 			is_planet_class = pc_matryoshka
-		}
-		NOR = {
 			is_planet_class = pc_hollow
 			is_planet_class = pc_bioform
 		}
@@ -4465,8 +4333,6 @@ district_farming_uncapped = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOT = {
 			is_planet_class = pc_bioform
 		}
 		OR = {
@@ -4478,8 +4344,6 @@ district_farming_uncapped = {
 		NOR = {
 			is_planet_class = pc_dyson_swarm
 			has_planet_flag = xvcv_machinedlcmod_planet
-		}
-		NOR = {
 			has_modifier = pm_Utopian_Paradise
 			is_planet_class = pc_bioform
 		}
